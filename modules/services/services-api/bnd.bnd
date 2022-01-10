@@ -1,0 +1,10 @@
+Bundle-Name: services-api
+Bundle-SymbolicName: com.liferay.custom.idea.management.services.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.custom.idea.management.services.exception,\
+	com.liferay.custom.idea.management.services.model,\
+	com.liferay.custom.idea.management.services.service,\
+	com.liferay.custom.idea.management.services.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../services-service/service.xml
